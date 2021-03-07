@@ -8,10 +8,10 @@ from veusz.plugins import (
     )
 
 class ImportSPA(ImportPlugin):
-    """A plugin for reading Thermo Scientific OMNIC .SPA file."""
-    name = 'OMNIC .SPA import'
+    """A plugin for reading Thermo Scientific OMNIC SPA file."""
+    name = 'OMNIC SPA import'
     author = 'Takuro Hosomi'
-    description = 'Read a spectrum from Thermo Scientific OMNIC .SPA file'
+    description = 'Read a spectrum from Thermo Scientific OMNIC SPA file'
     file_extensions = set(['.spa', '.SPA'])
 
     def __init__(self):
