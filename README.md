@@ -6,4 +6,4 @@ SPA is the default file type of Thermo Scientific(TM) OMNIC Series Software(TM),
 # License
 GNU General Public License v3.0 or later  
 
-See COPYING to see the full text.
+See [LICNESE](https://github.com/korintje/SPAImportPlugin_for_Veusz/blob/main/LICENSE) for the full text.
