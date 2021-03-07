@@ -17,7 +17,7 @@ Extracting a spectrum from .SPA file and importing as two Dataset1D (x and y). T
 # How to use
 In veusz
 1. `Data` -> `Import` -> `Plugins`, and select "OMNIC SPA import" in the plugin select box.
-2. set X and Y axis name (By default, the Y axis name is automatically set as the "title" of SPA data.) 
+2. Set X and Y axis name (By default, the Y axis name is automatically set as the "title" of SPA data.) 
 3. Import
 
 # Requirements
