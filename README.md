@@ -11,7 +11,7 @@ Extracting a spectrum from .SPA file and importing as two Dataset1D (x and y). T
 2. Extract the compressed folder
 3. Move the `spa_import.py` to anywhere (e.g. C:\Program Files (x86)\Veusz\plugins)
 4. Start Veusz
-5. `Edit` -> `Preferences` -> `Plugins` -> `Add`, and chooose the `spa_import.py`
+5. `Edit` -> `Preferences` -> `Plugins` -> `Add`, and choose the `spa_import.py`
 6. Restart Veusz
 
 # How to use
