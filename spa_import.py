@@ -78,7 +78,6 @@ class SPAData():
 
             # Get spectrum data
             self.data = np.fromfile(f, np.single, self.datanum)
-            print(f.tell())
 
 # add the class to the registry.
 importpluginregistry.append(ImportSPA)
