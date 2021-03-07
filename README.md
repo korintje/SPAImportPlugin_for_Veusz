@@ -7,7 +7,7 @@ SPA is the default file type of Thermo Scientific(TM) OMNIC Series Software(TM),
 Extracting a spectrum from .SPA file and importing as two Dataset1D (x and y). The x-axis is wavenumber. The y-azis is absorbance or transmittance.
 
 # How to install
-1. Download the plugin [file](https://github.com/korintje/SPAImportPlugin_for_Veusz/releases/tag/v1.0)
+1. Download [the plugin file](https://github.com/korintje/SPAImportPlugin_for_Veusz/releases/tag/v1.0)
 2. Extract the compressed folder
 3. Move the `spa_import.py` to anywhere (e.g. C:\Program Files (x86)\Veusz\plugins)
 4. Start Veusz
