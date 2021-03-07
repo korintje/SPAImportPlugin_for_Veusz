@@ -68,13 +68,13 @@ class SPAData():
             self.min_wavenum = np.fromfile(f, np.single, 1)[0]
             self.wavenumbers = np.linspace(self.max_wavenum, self.min_wavenum, self.datanum)
 
-            # Search and move  start address of data
+            # Search and move start address of data
             f.seek(288)
             flag = 0
             while flag != 3:
                 flag = np.fromfile(f, np.uint16, 1)
-            DataPosition=np.fromfile(f,np.uint16, 1)[0]
-            f.seek(DataPosition)
+            data_position=np.fromfile(f,np.uint16, 1)[0]
+            f.seek(data_position)
 
             # Get spectrum data
             self.data = np.fromfile(f, np.single, self.datanum)
