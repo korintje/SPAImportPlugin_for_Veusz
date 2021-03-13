@@ -16,7 +16,6 @@ class ImportSPA(ImportPlugin):
 
     def __init__(self):
         ImportPlugin.__init__(self)
-        #self.spadata = SPAData(params.filename)
         self.fields = [
             ImportFieldText("x_name", descr="X-axis name", default="wavenumber"),
             ImportFieldText("y_name", descr="Y-axis name", default=r"{auto}")
