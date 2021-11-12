@@ -4,6 +4,7 @@ from veusz.plugins import (
     ImportPlugin,
     ImportDataset1D,
     ImportFieldText,
+    ImportPluginException,
     importpluginregistry,
     )
 

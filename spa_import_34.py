@@ -1,11 +1,5 @@
 # -*- coding: utf-8 -*-
-import numpy as np
-from veusz.plugins import (
-    ImportPlugin,
-    ImportDataset1D,
-    ImportFieldText,
-    importpluginregistry,
-    )
+from veusz.plugins import importpluginregistry
 
 class ImportSPA(ImportPlugin):
     """A plugin for reading Thermo Scientific OMNIC SPA file."""
@@ -15,12 +9,7 @@ class ImportSPA(ImportPlugin):
     file_extensions = set(['.spa', '.SPA'])
 
     def __init__(self):
-        from veusz.plugins import (
-		    ImportPlugin,
-		    ImportDataset1D,
-		    ImportFieldText,
-		    importpluginregistry,
-		    )
+        from veusz.plugins import ImportPlugin, ImportFieldText
         ImportPlugin.__init__(self)
         self.fields = [
             ImportFieldText("x_name", descr="X-axis name", default="wavenumber"),
@@ -30,12 +19,7 @@ class ImportSPA(ImportPlugin):
     def doImport(self, params):
         """Actually import data"""
         import numpy as np
-        from veusz.plugins import (
-            ImportPlugin,
-            ImportDataset1D,
-            ImportFieldText,
-            importpluginregistry,
-            )
+        from veusz.plugins import ImportDataset1D, ImportPluginException
 
         class SPAData():
 
