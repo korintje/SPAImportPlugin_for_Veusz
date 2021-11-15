@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from veusz.plugins import importpluginregistry
+from veusz.plugins import importpluginregistry, ImportPlugin
 
 class ImportSPA(ImportPlugin):
     """A plugin for reading Thermo Scientific OMNIC SPA file."""
